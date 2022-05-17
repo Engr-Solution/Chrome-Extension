@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Social Icons",
+  "version": "1.0.0",
+  "description": "A Simple Social Icons built for easy referencing",
+  "author": "Emmanuel Ishola || Engr-Solution",
+
+  "action": {
+    "default_icon": { "16": "icon.png" },
+    "default_popup": "index.html",
+    "default_title": "Simple Social Icons"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs"
+]
+}
